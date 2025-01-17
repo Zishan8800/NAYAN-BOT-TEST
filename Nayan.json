@@ -9,11 +9,11 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "nayan-bot",
+  "BOTNAME": "SAHEL-BOT",
   "PREFIX": "/",
   "OPERATOR": [
-    "100014896964436",
-    "100000959749712"
+    "100028030566588",
+    "100028030566588"
   ],
   "ADMINBOT": [
     "100000959749712",
