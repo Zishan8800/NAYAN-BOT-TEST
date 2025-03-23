@@ -28,13 +28,13 @@ var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
 var callback = () => api.sendMessage({body:`
 --------------------------------------------
-𝗡𝗔𝗠𝗘      : 𝗭𝗬-𝗔𝗡 𝗠𝗔𝗛𝗠𝗨𝗗 𝗝𝗜𝗦𝗔𝗡
-𝗡𝗜𝗖𝗞 𝗡𝗔𝗠𝗘 : 𝗦𝗘𝗟𝗙𝗜𝗦𝗛
-𝗥𝗘𝗟𝗜𝗚𝗜𝗢𝗡   : 𝗔𝗟𝗛𝗔𝗠𝗗𝗨𝗟𝗟𝗔𝗛 𝗜𝗦𝗟𝗔𝗠 🦋🕋🤲
-𝗔𝗚𝗘𝗘      :19+ 👀
-𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 : 𝗦𝗜𝗡𝗚𝗟𝗘𝗘𝗛👨‍🦯
-𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞 : https://www.facebook.com/C3X.ZY1N`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
+𝗡𝗔𝗠𝗘      : 𝐉𝐈𝐒𝐀𝐍 𝐀𝐇𝐌𝐄𝐃 🌷
+𝗡𝗜𝗖𝗞 𝗡𝗔𝗠𝗘 : 𝐒𝐇𝐔-𝐕𝐎 📰
+𝗥𝗘𝗟𝗜𝗚𝗜𝗢𝗡   : 𝐈𝐒𝐋𝐀𝐌 🤍
+𝗔𝗚𝗘      :19+ 👀
+𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 : 𝐒𝐈𝐍𝐆𝐋𝐄👨‍🦯
+𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞 : https://www.facebook.com/Okee.Bbz`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://i.ibb.co/jkMvsZZ0/77e98be8-beec-43c5-a1fb-11b43cb44f64.jpg`)).pipe(
+      return request(encodeURI(`https://i.imgur.com/RVKYIu6.jpeg`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
